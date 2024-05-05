@@ -12,10 +12,10 @@ public class Main {
         Worker worker2 = new Worker("Ron", 1800, 2, "2023-03-15", "Senior Developer");
         Worker worker3 = new Worker("Syrius", 1900, 3, "2020-12-10", "Tester");
         Worker worker4 = new Worker("Hermione", 2100, 4, "2021-06-20", "Project Manager");
-        Worker worker5 = new Worker("Draco", 2200, 3, "2021-06-20", "Project Manager"); 
-                                                                                      
-        Manager manager1 = new Manager("Tom", 5000, 5, "2019-05-10", "Department Head");
-        Manager manager2 = new Manager("Rubeus", 5500, 1, "2019-05-10", "CTO"); 
+        Worker worker5 = new Worker("Draco", 2200, 5, "2021-06-20", "Project Manager"); // changed id to 5
+
+        Manager manager1 = new Manager("Tom", 5000, 6, "2019-05-10", "Department Head"); // changed id to 6
+        Manager manager2 = new Manager("Rubeus", 5500, 7, "2019-05-10", "CTO"); // changed id to 7
 
         ArrayList<Employee> employees = new ArrayList<>();
         employees.add(worker1);
